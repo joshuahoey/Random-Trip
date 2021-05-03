@@ -36,8 +36,18 @@ function entertainment(funArr){
 let randomEntertainment = entertainment(["Concert", "Movie", "Hike", "Bar Hopping"])
 console.log(randomEntertainment);
 
-//function that displays all the randoms 
-//prompt user if they like the trip
+//Display Trip in the Console
+console.log(randomDestination, randomFood, randomTransport, randomEntertainment);
+ 
+//Function that prompts user if they like the trip
 //if yes then console.log trip
 //else generate new trip
 
+let completeQuestion;
+completeQuestion = prompt("Do you like the trip planned Yes or No?");
+
+    if(completeQuestion === "No"){
+        window.location.reload(true);
+    } else if(completeQuestion === "Yes"){
+        stop;
+    }
