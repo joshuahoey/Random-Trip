@@ -1,8 +1,4 @@
 'use strict';
-const colors = [ 'blue', 'yellow', 'orange', 'red' ];
-const randIndex = Math.floor(Math.random() * colors.length);
-
-console.log(colors[randIndex]);
 
 //random destination
 function destination(placesArr){
@@ -35,9 +31,6 @@ function entertainment(funArr){
 }
 let randomEntertainment = entertainment(["Concert", "Movie", "Hike", "Bar Hopping"])
 console.log(randomEntertainment);
-
-//Display Trip in the Console
-console.log(randomDestination, randomFood, randomTransport, randomEntertainment);
  
 //Function that prompts user if they like the trip
 //if yes then console.log trip
