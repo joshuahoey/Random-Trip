@@ -21,7 +21,7 @@ function transportation(transArr){
     let randomTransportation = Math.floor(Math.random() * transArr.length);
     return transArr[randomTransportation];
 }
-let randomTransport = transportation(["Car", "Bus", "Bike", "Train", "Bike"])
+let randomTransport = transportation(["Car", "Bus", "Bike", "Train", "Plane"])
 console.log(randomTransport);
 
 //random entertainment
