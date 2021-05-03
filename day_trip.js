@@ -42,5 +42,5 @@ completeQuestion = prompt("Do you like the trip planned Yes or No?");
     if(completeQuestion === "No"){
         window.location.reload(true);
     } else if(completeQuestion === "Yes"){
-        stop;
+        alert("Complete")
     }
